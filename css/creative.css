@@ -13,12 +13,12 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #f05f40;
+  border-color: red;
   border-width: 3px;
   max-width: 50px;
 }
 hr.light {
-  border-color: white;
+  border-color: red;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -29,6 +29,9 @@ a {
 a:hover,
 a:focus {
   color: #eb3812;
+}
+#stupidtext{
+  color:red;
 }
 h1,
 h2,
@@ -278,6 +281,9 @@ header .header-content .header-content-inner p {
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
+}
+#titlePort{
+  font-size: black;
 }
 .btn-default {
   color: #222222;
